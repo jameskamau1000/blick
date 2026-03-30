@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blick and Skills — Brochure Cover</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #f3f5f8;
+      --ink: #1a3348;
+      --gold: #c9a84a;
+      --taupe: #5c6670;
+    }
+    * { box-sizing: border-box; }
+    @page { size: A4 portrait; margin: 0; }
+    html, body { margin: 0; min-height: 100%; background: #1e2830; }
+    body {
+      font-family: "Outfit", system-ui, sans-serif;
+      color: var(--ink);
+      display: flex;
+      justify-content: center;
+      padding: 24px 0 40px;
+    }
+    .brochure {
+      width: 210mm;
+      min-height: 297mm;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse 100% 80% at 15% 5%, rgba(201, 168, 74, 0.12) 0%, transparent 50%),
+        linear-gradient(165deg, var(--cream) 0%, #e8ecf2 100%);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+    }
+    .inner {
+      position: relative;
+      z-index: 1;
+      padding: 14mm 16mm 16mm;
+      display: flex;
+      flex-direction: column;
+      min-height: 297mm;
+    }
+    .logo-wrap { text-align: center; margin-bottom: 6mm; }
+    .logo-wrap img { width: min(200px, 48vw); height: auto; display: inline-block; }
+    h1 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 700;
+      font-size: clamp(1.65rem, 4vw, 2.2rem);
+      text-align: center;
+      margin: 0 0 8px;
+      line-height: 1.15;
+      color: var(--ink);
+    }
+    .sub {
+      text-align: center;
+      font-size: 0.98rem;
+      font-weight: 500;
+      color: var(--taupe);
+      max-width: 40ch;
+      margin: 0 auto 14px;
+      line-height: 1.5;
+    }
+    .band {
+      background: rgba(255, 255, 255, 0.75);
+      border: 1px solid rgba(26, 51, 72, 0.12);
+      border-radius: 14px;
+      padding: 14px 18px;
+      margin-bottom: 12px;
+    }
+    .band h2 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.1rem;
+      margin: 0 0 10px;
+      color: var(--gold);
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+    .pill {
+      font-size: 0.76rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(26, 51, 72, 0.06);
+      border: 1px solid rgba(26, 51, 72, 0.1);
+    }
+    .contact {
+      margin-top: auto;
+      background: linear-gradient(135deg, #1a3348 0%, #243d52 100%);
+      color: #f4f1eb;
+      border-radius: 14px;
+      padding: 16px 20px;
+    }
+    .contact h3 {
+      margin: 0 0 12px;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--gold);
+      letter-spacing: 0.06em;
+    }
+    .row { display: flex; gap: 10px; align-items: flex-start; margin: 8px 0; font-size: 0.9rem; line-height: 1.45; }
+    .row .icon { flex: 0 0 1.2rem; font-weight: 700; color: var(--gold); }
+    .row a { color: #fff; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.35); }
+    .footer-note { text-align: center; font-size: 0.72rem; color: rgba(244,241,235,.55); margin-top: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+    @media print {
+      body { background: #fff; padding: 0; display: block; }
+      .brochure { box-shadow: none; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <article class="brochure" aria-label="Blick and Skills brochure cover">
+    <div class="inner">
+      <div class="logo-wrap">
+        <img src="/assets/img/blick-logo.svg" width="200" height="200" alt="Blick and Skills logo">
+      </div>
+      <h1>Trusted Precious Metals Sourcing &amp; Export Across East Africa</h1>
+      <p class="sub">Licensed precious metals dealing and consultancy from Kampala and Nairobi — connecting global buyers with verified sources in Uganda, Kenya, and the wider region.</p>
+      <div class="band">
+        <h2>What we do</h2>
+        <div class="pill-row">
+          <span class="pill">Sourcing</span>
+          <span class="pill">Due diligence</span>
+          <span class="pill">Consultancy</span>
+          <span class="pill">Export facilitation</span>
+        </div>
+      </div>
+      <section class="contact">
+        <h3>Contact</h3>
+        <div class="row">
+          <span class="icon">&#9670;</span>
+          <div><strong>Offices</strong><br>Kampala, Uganda &middot; Nairobi, Kenya</div>
+        </div>
+        <div class="row">
+          <span class="icon">&#9670;</span>
+          <div><strong>Phone</strong><br><a href="tel:+256765597349">+256 765 597 349</a></div>
+        </div>
+        <div class="row">
+          <span class="icon">&#9670;</span>
+          <div><strong>WhatsApp</strong><br><a href="https://wa.me/254721677777">+254 721 677 777</a></div>
+        </div>
+        <div class="row">
+          <span class="icon">&#9670;</span>
+          <div><strong>Email</strong><br><a href="mailto:info@blickandskills.com">info@blickandskills.com</a></div>
+        </div>
+        <p class="footer-note">Blick and Skills &middot; blickandskills.com</p>
+      </section>
+    </div>
+  </article>
+</body>
+</html>

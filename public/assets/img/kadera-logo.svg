@@ -1,0 +1,34 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="36" y1="28" x2="385" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F7F5"/>
+      <stop offset="1" stop-color="#E6EEF4"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="80" y1="70" x2="320" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F4D3D"/>
+      <stop offset="1" stop-color="#0A2D4A"/>
+    </linearGradient>
+    <linearGradient id="oreGrad" x1="96" y1="230" x2="240" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C79246"/>
+      <stop offset="1" stop-color="#A86F2A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="420" height="420" rx="58" fill="url(#bgGrad)"/>
+
+  <path d="M210 54L322 112V210C322 286 279 342 210 368C141 342 98 286 98 210V112L210 54Z" fill="url(#shieldGrad)"/>
+  <path d="M210 70L306 120V206C306 273 269 322 210 347C151 322 114 273 114 206V120L210 70Z" stroke="#3A6D62" stroke-width="6"/>
+
+  <path d="M122 230L186 148L252 230H122Z" fill="url(#oreGrad)"/>
+  <path d="M180 222L220 170L300 278H138L180 222Z" fill="#1F658F"/>
+
+  <rect x="252" y="112" width="14" height="56" rx="4" fill="#C79246"/>
+  <rect x="272" y="98" width="14" height="70" rx="4" fill="#D4A257"/>
+  <rect x="292" y="126" width="14" height="42" rx="4" fill="#B7813A"/>
+
+  <circle cx="276" cy="236" r="32" fill="#F5F8FB"/>
+  <path d="M260 236L272 248L293 225" stroke="#0F4D3D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="300" cy="88" r="12" fill="#0F4D3D"/>
+  <circle cx="300" cy="88" r="5" fill="#E7B56B"/>
+</svg>

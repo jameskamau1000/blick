@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blick and Skills - Company Profile Brochure</title>
+  <style>
+    :root {
+      --bg: #f5efe3;
+      --ink: #233947;
+      --accent: #be6b2f;
+      --accent-dark: #8f3f1f;
+      --card: #fffaf1;
+      --line: #d6c8ac;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(160deg, #fcf7ed 0%, #efe4ce 100%);
+      line-height: 1.45;
+    }
+    .page {
+      max-width: 980px;
+      margin: 26px auto;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 34px;
+      box-shadow: 0 14px 28px rgba(37, 50, 58, 0.12);
+    }
+    .header {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 26px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .logo {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: #f8f1e2;
+      padding: 8px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      line-height: 1.15;
+      letter-spacing: 0.3px;
+    }
+    .tagline {
+      margin: 0;
+      color: #4e606c;
+      font-size: 1.06rem;
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 7px 12px;
+      background: var(--ink);
+      color: #fff;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      letter-spacing: 0.35px;
+      text-transform: uppercase;
+    }
+    .intro {
+      margin-top: 14px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-left: 6px solid var(--accent);
+      border-radius: 12px;
+      padding: 16px 18px;
+    }
+    h2 {
+      margin: 22px 0 10px;
+      font-size: 1.2rem;
+      color: var(--accent-dark);
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .service {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 11px 12px;
+      font-size: 0.96rem;
+    }
+    .region {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .region-box {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+      padding: 12px;
+    }
+    .contact {
+      margin-top: 22px;
+      border-radius: 12px;
+      border: 1px solid #c4ae8c;
+      background: linear-gradient(135deg, #264556 0%, #1b2f3a 100%);
+      color: #fff;
+      padding: 16px 18px;
+    }
+    .contact h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+      letter-spacing: 0.3px;
+    }
+    .contact p {
+      margin: 6px 0;
+      font-size: 0.95rem;
+    }
+    .footer {
+      margin-top: 18px;
+      font-size: 0.86rem;
+      color: #637684;
+    }
+    @media print {
+      body { background: #fff; }
+      .page {
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+        max-width: 100%;
+        min-height: 100vh;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="header">
+      <img class="logo" src="/assets/img/blick-logo.svg" alt="Blick and Skills logo">
+      <div>
+        <h1>Blick and Skills</h1>
+        <p class="tagline">Trusted precious metals sourcing, due diligence, and export facilitation for East African and global markets.</p>
+        <span class="badge">East Africa Mineral Trade Partner</span>
+      </div>
+    </section>
+
+    <section class="intro">
+      Blick and Skills supports buyers, investors, and partners seeking secure and compliant precious metal transactions across East Africa. We combine regional sourcing intelligence, verification controls, and reliable trade coordination from Kampala and Nairobi.
+    </section>
+
+    <h2>Core Services</h2>
+    <section class="services">
+      <article class="service"><strong>Precious Metals Sourcing</strong><br>Structured sourcing support from verified supplier networks.</article>
+      <article class="service"><strong>Gold Due Diligence & Validation</strong><br>Documentation checks, sample verification, and transaction confidence support.</article>
+      <article class="service"><strong>Minerals Consultancy</strong><br>Strategic guidance for buyers, investors, and trading partners.</article>
+      <article class="service"><strong>Export Facilitation</strong><br>End-to-end process support for compliant cross-border transactions.</article>
+    </section>
+
+    <h2>Africa Market Reach</h2>
+    <section class="region">
+      <article class="region-box">
+        <strong>Head Office Coordination</strong><br>
+        Kampala and Nairobi anchor our operations and client support for regional and international engagements.
+      </article>
+      <article class="region-box">
+        <strong>Cross-Border Buyer Support</strong><br>
+        We engage regional networks and connect international buyers with transparent sourcing channels.
+      </article>
+    </section>
+
+    <section class="contact">
+      <h3>Contact Details</h3>
+      <p><strong>Offices:</strong> Kampala, Uganda &middot; Nairobi, Kenya</p>
+      <p><strong>Phone:</strong> +256 765 597 349</p>
+      <p><strong>WhatsApp:</strong> +254 721 677 777</p>
+      <p><strong>Web:</strong> blickandskills.com</p>
+      <p><strong>Email:</strong> info@blickandskills.com</p>
+    </section>
+
+    <p class="footer">Brochure prepared for Blick and Skills — print-ready on A4.</p>
+  </main>
+</body>
+</html>
