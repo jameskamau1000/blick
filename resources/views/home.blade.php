@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="col-lg-5">
-          <img class="cover-img" src="{{ asset('assets/img/blick-hero.png') }}" alt="Business partners in a modern boardroom">
+          <img class="cover-img" src="{{ asset('assets/img/blick-hero.png') }}" alt="Modern corporate boardroom and city skyline">
         </div>
       </div>
     </div>

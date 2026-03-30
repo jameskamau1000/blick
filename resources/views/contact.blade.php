@@ -24,7 +24,7 @@
       <div class="row g-4">
         <div class="col-lg-5">
           <div class="card-soft p-4 h-100">
-            <img class="thumb-img" src="{{ asset('assets/img/office.jpg') }}" alt="Corporate office">
+            <img class="thumb-img" src="{{ asset('assets/img/office.jpg') }}" alt="Modern corporate office interior">
             <h2 class="h5">Offices</h2>
             <p class="mb-1"><strong>Nairobi</strong> — head office &amp; main business hub</p>
             <p class="mb-3">Kenya</p>
