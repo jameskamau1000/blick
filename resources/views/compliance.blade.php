@@ -11,7 +11,7 @@
         <div class="col-lg-6">
           <div class="card-soft p-4 h-100">
             <h2 class="h5">Licensed Mineral Dealer</h2>
-            <p>Our company operates under valid mineral dealership licensing frameworks in the jurisdictions where we trade, including Kenya and Uganda.</p>
+            <p>Our company operates under valid mineral dealership licensing frameworks in the jurisdictions where we trade, with Kenya as our primary operating base for regulated dealings.</p>
             <p class="mb-0"><strong>License verification display:</strong> available during formal buyer onboarding and due diligence stage.</p>
           </div>
         </div>

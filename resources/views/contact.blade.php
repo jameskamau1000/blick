@@ -26,10 +26,10 @@
           <div class="card-soft p-4 h-100">
             <img class="thumb-img" src="{{ asset('assets/img/office.jpg') }}" alt="Corporate office">
             <h2 class="h5">Offices</h2>
-            <p class="mb-1"><strong>Kampala</strong> — Central business district</p>
-            <p class="mb-3">Uganda</p>
-            <p class="mb-1"><strong>Nairobi</strong> — liaison &amp; export coordination</p>
+            <p class="mb-1"><strong>Nairobi</strong> — head office &amp; main business hub</p>
             <p class="mb-3">Kenya</p>
+            <p class="mb-1"><strong>Kampala</strong> — regional office</p>
+            <p class="mb-3">Uganda</p>
             <p class="mb-1">Phone: <a href="tel:+256765597349">+256 765 597 349</a></p>
             <p class="mb-1">WhatsApp: <a href="https://wa.me/254721677777" target="_blank" rel="noopener noreferrer">+254 721 677 777</a></p>
             <p class="mb-3">Email: <a href="mailto:info@blickandskills.com">info@blickandskills.com</a></p>

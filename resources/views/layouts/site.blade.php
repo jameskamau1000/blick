@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>@yield('title', 'Blick and Skills')</title>
   <meta name="description" content="@yield('description', 'Precious metals sourcing, due diligence, and export across East Africa.')">
-  <meta name="keywords" content="precious metals East Africa, gold sourcing Uganda Kenya, mineral consultancy Africa, gold export Africa, Blick and Skills">
+  <meta name="keywords" content="precious metals Nairobi, gold sourcing Kenya East Africa, mineral consultancy Africa, gold export Kenya, Blick and Skills">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     :root {
@@ -73,7 +73,7 @@
 <body>
   <div class="topbar py-2">
     <div class="container d-flex flex-wrap gap-3 justify-content-between">
-      <span>Kampala &amp; Nairobi | Licensed Precious Metals Dealer</span>
+      <span>Nairobi, Kenya — Main Business Hub | Licensed Precious Metals Dealer</span>
       <div class="d-flex align-items-center gap-2">
         <span>Email: info@blickandskills.com</span>
         <a class="email-btn" href="mailto:info@blickandskills.com?subject=Inquiry%20-%20Blick%20and%20Skills">Email Us</a>
@@ -127,7 +127,7 @@
             <img class="footer-logo" src="{{ asset('assets/img/blick-logo.svg') }}" alt="Blick and Skills logo">
             <span class="fw-semibold text-white">Blick and Skills</span>
           </div>
-          <p class="mb-1">Kampala, Uganda &middot; Nairobi, Kenya</p>
+          <p class="mb-1">Head office: Nairobi, Kenya &middot; Regional: Kampala, Uganda</p>
           <p class="mb-0">Licensed Precious Metals Dealer</p>
         </div>
         <div class="col-6 col-lg-3">

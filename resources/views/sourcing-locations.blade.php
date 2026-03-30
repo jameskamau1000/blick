@@ -1,14 +1,14 @@
 @extends('layouts.site')
 
 @section('title', 'Sourcing Locations | Blick and Skills')
-@section('description', 'Key sourcing locations in Kenya, Uganda, and East Africa for verified precious metals.')
+@section('description', 'Key sourcing locations in Kenya and East Africa for verified precious metals.')
 
 @section('content')
   <section class="py-5">
     <div class="container">
       <h1 class="section-title mb-4">Sourcing Locations</h1>
       <p class="mb-4">
-        Our sourcing network covers strategic mining regions in Kenya, Uganda, and selected East African corridors.
+        Our sourcing network covers strategic mining regions in Kenya and selected East African corridors, coordinated from Nairobi.
         Each location is handled under a strict verification process that includes source checks, seller identity
         validation, and transaction documentation before any buyer-facing transaction is approved.
       </p>

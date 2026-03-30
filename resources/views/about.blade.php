@@ -1,16 +1,17 @@
 @extends('layouts.site')
 
 @section('title', 'About Us | Blick and Skills')
-@section('description', 'Professional precious metals consultancy and trading across Uganda, Kenya, and East Africa.')
+@section('description', 'Professional precious metals consultancy and trading from Nairobi, Kenya, across East Africa.')
 
 @section('content')
   <section class="py-5">
     <div class="container">
       <h1 class="section-title mb-3">About Us</h1>
       <p>
-        Blick and Skills is a minerals and precious metals consultancy and trading firm with operations in Kampala and Nairobi.
-        We focus on gold and other high-value minerals, linking international investors and buyers with vetted sources across
-        Uganda, Kenya, and neighbouring markets.
+        Blick and Skills is a minerals and precious metals consultancy and trading firm with its <strong>main business hub in Nairobi,
+        Kenya</strong>, where export coordination and client governance are centred. We maintain regional presence in Uganda and
+        focus on gold and other high-value minerals, linking international investors and buyers with vetted sources across
+        Kenya, East Africa, and neighbouring markets.
       </p>
       <p class="mb-3">
         Our work spans regional sourcing, due diligence and validation, investor advisory, and export facilitation for global
@@ -71,7 +72,7 @@
         <div class="col-md-4">
           <div class="card-soft p-4">
             <h2 class="h5">Vision</h2>
-            <p class="mb-0">To be a leading East African precious metals sourcing and export partner for discerning buyers.</p>
+            <p class="mb-0">To be a leading Nairobi-led East African precious metals sourcing and export partner for discerning buyers.</p>
           </div>
         </div>
         <div class="col-md-4">

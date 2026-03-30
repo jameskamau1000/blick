@@ -69,7 +69,7 @@
           <div class="card-soft p-4">
             <h2 class="h5">5. Export Facilitation</h2>
             <p>
-              Structured export support from Kampala and Nairobi to Turkey, Dubai, Hong Kong, Europe, and Australia.
+              Structured export support from our Nairobi hub to Turkey, Dubai, Hong Kong, Europe, and Australia.
             </p>
             <ul class="mb-0">
               <li>Export documentation planning and process readiness</li>

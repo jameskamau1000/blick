@@ -1,7 +1,7 @@
 @extends('layouts.site')
 
 @section('title', 'Trusted Precious Metals Sourcing & Export | Blick and Skills')
-@section('description', 'Licensed precious metals dealing, due diligence, consultancy, and export facilitation for investors and buyers across Uganda, Kenya, and East Africa.')
+@section('description', 'Licensed precious metals dealing, due diligence, consultancy, and export facilitation from Nairobi, Kenya, serving investors and buyers across East Africa.')
 
 @section('content')
   <header class="hero">
@@ -11,7 +11,7 @@
           <h1 class="display-5 fw-bold mb-3">Trusted Precious Metals Sourcing &amp; Export Across East Africa</h1>
           <p class="lead mb-4">
             Blick and Skills is a licensed precious metals dealing firm connecting global buyers and investors with verified
-            mineral sources across Uganda, Kenya, and the wider East African region.
+            mineral sources across Kenya, East Africa, and selected regional corridors.
           </p>
           <div class="d-flex flex-wrap gap-2">
             <a href="{{ route('contact') }}" class="btn btn-gold btn-lg">Request Consultation</a>
@@ -30,8 +30,9 @@
     <div class="container">
       <h2 class="section-title mb-3">Company Introduction</h2>
       <p class="mb-0">
-        Blick and Skills delivers precious metals sourcing, validation, and export coordination with teams anchored in Kampala
-        and Nairobi. We support miners, trading partners, and international buyers with structured due diligence, transparent
+        Blick and Skills is headquartered in <strong>Nairobi</strong>, our main business hub for export coordination, client
+        delivery, and transaction governance. We also maintain regional presence in Uganda. We support miners, trading partners,
+        and international buyers with structured due diligence, transparent
         communication, and compliance-aligned transaction workflows.
       </p>
     </div>
@@ -79,12 +80,12 @@
     <div class="container">
       <div class="row g-4 align-items-center">
         <div class="col-lg-6">
-          <img class="cover-img" src="{{ asset('assets/img/blick-kampala-hub.png') }}" alt="East Africa city skyline">
+          <img class="cover-img" src="{{ asset('assets/img/nairobi.jpg') }}" alt="Nairobi business district and operations hub">
         </div>
         <div class="col-lg-6">
-          <h2 class="section-title mb-3">East Africa Operations Hub</h2>
+          <h2 class="section-title mb-3">Nairobi Operations Hub</h2>
           <p class="mb-0">
-            Coordination runs through Kampala and Nairobi so buyers receive responsive support, clear milestones, and
+            Operations are led from Nairobi, with regional support so buyers receive responsive contact, clear milestones, and
             documentation aligned to export requirements—from first consultation through final delivery.
           </p>
         </div>
