@@ -37,6 +37,41 @@
     .navbar-brand { color: var(--blick-navy); font-weight: 700; }
     .navbar .container { gap: .8rem; }
     .nav-link { color: #24303d; font-weight: 500; padding-right: .7rem; padding-left: .7rem; }
+    @media (min-width: 768px) {
+      .site-navbar .navbar-toggler { display: none !important; }
+      .site-navbar .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto !important;
+        flex-grow: 1;
+        align-items: center;
+      }
+      .site-navbar .navbar-collapse.collapse:not(.show) {
+        display: flex !important;
+      }
+      .site-navbar .navbar-nav {
+        flex-wrap: nowrap;
+        align-items: center;
+      }
+      .site-navbar .navbar-nav .nav-link {
+        white-space: nowrap;
+        font-size: .875rem;
+        padding-left: .42rem;
+        padding-right: .42rem;
+      }
+      .site-navbar .navbar-brand span {
+        font-size: .875rem;
+        font-weight: 700;
+        max-width: 9.5rem;
+        line-height: 1.2;
+      }
+      .site-navbar .nav-item .btn-gold.btn-sm {
+        font-size: .8125rem;
+        padding: .28rem .55rem;
+      }
+    }
+    @media (max-width: 767.98px) {
+      .site-navbar .navbar-nav .nav-link { white-space: normal; }
+    }
     .nav-link:hover, .nav-link.active { color: var(--blick-navy); }
     .dropdown-menu { border: 1px solid #e2e7eb; border-radius: .7rem; }
     .dropdown-item:active { background: var(--blick-navy); }
@@ -81,7 +116,7 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-xl sticky-top bg-white">
+  <nav class="navbar site-navbar navbar-expand-md sticky-top bg-white">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center gap-2" href="{{ route('home') }}">
         <img src="{{ asset('assets/img/blick-logo.svg') }}" width="38" height="38" alt="Blick and Skills logo">
@@ -91,7 +126,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
           <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ route('services') }}">Our Services</a></li>
@@ -104,12 +139,9 @@
               <li><a class="dropdown-item" href="{{ route('location') }}">Location</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="{{ route('compliance') }}">Compliance</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ route('portal') }}">Investor &amp; Buyer Portal</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{ route('news') }}">News</a></li>
-          <li class="nav-item"><a class="nav-link" href="{{ url('/brochures/') }}">Brochures</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
-          <li class="nav-item ms-xl-2"><a class="btn btn-gold btn-sm mt-2 mt-xl-0" href="{{ route('contact') }}">Consultation</a></li>
+          <li class="nav-item ms-md-2"><a class="btn btn-gold btn-sm mt-2 mt-md-0" href="{{ route('contact') }}">Consultation</a></li>
         </ul>
       </div>
     </div>
@@ -130,22 +162,27 @@
           <p class="mb-1">Head office: Nairobi, Kenya &middot; Regional: Kampala, Uganda</p>
           <p class="mb-0">Licensed Precious Metals Dealer</p>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-6 col-lg-2">
           <p class="footer-title">Navigation</p>
           <a class="footer-link" href="{{ route('home') }}">Home</a><br>
           <a class="footer-link" href="{{ route('about') }}">About Us</a><br>
           <a class="footer-link" href="{{ route('services') }}">Our Services</a><br>
-          <a class="footer-link" href="{{ url('/brochures/') }}">Brochures</a><br>
           <a class="footer-link" href="{{ route('contact') }}">Contact</a>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-6 col-lg-2">
           <p class="footer-title">Operations</p>
           <a class="footer-link" href="{{ route('precious-metals') }}">Precious Metals</a><br>
           <a class="footer-link" href="{{ route('sourcing-locations') }}">Sourcing Locations</a><br>
           <a class="footer-link" href="{{ route('export-process') }}">Export Process</a><br>
-          <a class="footer-link" href="{{ route('compliance') }}">Compliance</a>
+          <a class="footer-link" href="{{ route('location') }}">Location</a>
         </div>
-        <div class="col-lg-2">
+        <div class="col-6 col-lg-2">
+          <p class="footer-title">Resources</p>
+          <a class="footer-link" href="{{ route('compliance') }}">Compliance</a><br>
+          <a class="footer-link" href="{{ route('news') }}">News</a><br>
+          <a class="footer-link" href="{{ url('/brochures/') }}">Brochures</a>
+        </div>
+        <div class="col-6 col-lg-2">
           <p class="footer-title">Contact</p>
           <a class="footer-link" href="{{ route('portal') }}">Investor &amp; Buyer Portal</a><br>
           <span class="d-block small">+256 765 597 349</span>
